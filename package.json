@@ -1,0 +1,15 @@
+{
+  "id": "exchange-owa",
+  "name": "Exchange OWA",
+  "version": "1.0.1",
+  "description": "Exchange OWA",
+  "main": "index.js",
+  "author": "Steve Cebertowicz <s.cebertowicz@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/cebertowicz/franz-owa",
+  "config": {
+    "hasCustomUrl": true,
+    "hasNotificationSound": true,
+    "message": "Please enter the URL to your company's Exchange OWA server in the 'custom server' path above."
+  }
+}
