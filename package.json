@@ -9,7 +9,7 @@
   "repository": "https://github.com/cebertowicz/franz-owa",
   "config": {
     "hasCustomUrl": true,
-    "hasNotificationSound": true,
+    "hasNotificationSound": false,
     "message": "Please enter the URL to your company's Exchange OWA server in the 'custom server' path above."
   }
 }
