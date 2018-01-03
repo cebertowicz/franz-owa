@@ -4,9 +4,10 @@ module.exports = (Franz) => {
         let count = jQuery("span[title*='Inbox'] + span + span").first().text();
 
         Franz.setBadge(parseInt(count));
+
+        setTimeout(getMessages, 3000);
     };
 
-    // check for new messages every second and update Franz badge
-    Franz.loop(getMessages);
+    getMessages();
 
 };
